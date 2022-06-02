@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
                             double height = Double.valueOf(strHeight);
                             double weight = Double.valueOf(strWeight);
                             if(height == 0) {
-                                String msg = "身長に0はダメです！";
+                                String msg = "身長に0はダメですよ！";
                                 Toast.makeText(MainActivity.this, msg,
                                 Toast.LENGTH_SHORT).show();
                             }
                             else if (weight == 0) {
-                                String msg = "体重に0はダメです！";
+                                String msg = "体重に0はダメですよ！";
                                 Toast.makeText(MainActivity.this, msg,
                                 Toast.LENGTH_SHORT).show();
                             }
