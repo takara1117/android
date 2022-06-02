@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:textColor="#0B0B0B"
         android:text="@string/tv_height"
     />
 
@@ -20,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:inputType="numberDecimal"
+        android:hint="例) 165.7"
     />
 
     <!-- 体重 -->
@@ -27,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:textColor="#0B0B0B"
         android:text="@string/tv_weight"
     />
 
@@ -36,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:inputType="numberDecimal"
+        android:hint="例) 55.4"
     />
 
     <!-- 計算ボタン -->
@@ -62,8 +66,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text=""
-        android:textSize="25sp"
-    />
+        android:textColor="#0B0B0B"
+        android:textSize="20sp" />
 
     <!-- BMIアドバイスメッセージ -->
     <TextView
@@ -72,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text=""
-        android:textSize="25sp"
-    />
+        android:textColor="#0B0B0B"
+        android:textSize="20sp" />
 
 </LinearLayout>
