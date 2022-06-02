@@ -67,23 +67,25 @@ public class MainActivity extends AppCompatActivity {
                             }
                             else {
                                 //BMI計算
-                                BigDecimal bigAns = new BigDecimal(weight / (height * height));
+                                BigDecimal bigAns = new BigDecimal(weight / ((height / 100) * (height / 100)));
                                 bigAns = bigAns.setScale(1, RoundingMode.HALF_UP);
                                 String strAns = bigAns.toString();
-                                tvAnswer.setText(strAns);
+                                tvAnswer.setText("BMI数値 : " + strAns);
                                 
                                 //アドバイスメッセージ
                                 double resultBmi = Double.valueOf(strAns);
                                 if (resultBmi >= 18.5 && resultBmi < 25) {
-                                    tvMsg.setText("ちょうどいいです。現状を維持しましょう");
+                                    tvMsg.setText("ちょうどいいです。\n 現状を維持しましょう");
                                 } 
                                 else if (resultBmi < 18.5) {
-                                    BigDecimal appropriateWeight = new BigDecimal((height * height) * 22);
-                                    tvMsg.setText("痩せています。体重" + (appropriateWeight) + "kgを目指しましょう");
+                                    BigDecimal appropriateWeight = new BigDecimal((height / 100) * (height / 100) * 22);
+                                    appropriateWeight = appropriateWeight.setScale(0, RoundingMode.HALF_UP);
+                                    tvMsg.setText("痩せています \n 体重" + (appropriateWeight) + "kgを目指しましょう");
                                 }
                                 else if (resultBmi >= 25) {
-                                    BigDecimal appropriateWeight = new BigDecimal((height * height) * 22);
-                                    tvMsg.setText("肥満です。体重" + (appropriateWeight) + "kgを目指しましょう");
+                                    BigDecimal appropriateWeight = new BigDecimal((height / 100) * (height / 100) * 22);
+                                    appropriateWeight = appropriateWeight.setScale(0, RoundingMode.HALF_UP);
+                                    tvMsg.setText("肥満です。 \n 体重" + (appropriateWeight) + "kgを目指しましょう");
                                 }   
                             }
                         }
