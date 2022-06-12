@@ -1,0 +1,115 @@
+<resources>
+    <!-- activity_main用 -->
+    <string name="app_name">⻄国三十三所巡礼リスト</string>
+    <string name="tv_select">お寺を選択してください。</string>
+    <string-array name="lv_temple">
+        <item>青岸渡寺</item>
+        <item>金剛宝寺</item>
+        <item>粉河寺</item>
+        <item>施福寺</item>
+        <item>葛井寺</item>
+        <item>南法華寺</item>
+        <item>岡寺</item>
+        <item>長谷寺</item>
+        <item>南円堂</item>
+        <item>三室戸寺</item>
+        <item>上醍醐 准胝堂</item>
+        <item>正法寺</item>
+        <item>石山寺</item>
+        <item>三井寺</item>
+        <item>今熊野観音寺</item>
+        <item>清水寺</item>
+        <item>六波羅蜜寺</item>
+        <item>六角堂 頂法寺</item>
+        <item>革堂 行願寺</item>
+        <item>善峯寺</item>
+        <item>穴太寺</item>
+        <item>総持寺</item>
+        <item>勝尾寺</item>
+        <item>中山寺</item>
+        <item>播州清水寺</item>
+        <item>一乗寺</item>
+        <item>圓教寺</item>
+        <item>成相寺</item>
+        <item>松尾寺</item>
+        <item>宝厳寺</item>
+        <item>長命寺</item>
+        <item>観音正寺</item>
+        <item>華厳寺</item>
+    </string-array>
+
+    <string-array name="lv_TempleNumber">
+        <item>第一番</item>
+        <item>第二番</item>
+        <item>第三番</item>
+        <item>第四番</item>
+        <item>第五番</item>
+        <item>第六番</item>
+        <item>第七番</item>
+        <item>第八番</item>
+        <item>第九番</item>
+        <item>第十番</item>
+        <item>第十一番</item>
+        <item>第十二番</item>
+        <item>第十三番</item>
+        <item>第十四番</item>
+        <item>第十五番</item>
+        <item>第十六番</item>
+        <item>第十七番</item>
+        <item>第十八番</item>
+        <item>第十九番</item>
+        <item>第二十番</item>
+        <item>第二十一番</item>
+        <item>第二十二番</item>
+        <item>第二十三番</item>
+        <item>第二十四番</item>
+        <item>第二十五番</item>
+        <item>第二十六番</item>
+        <item>第二十七番</item>
+        <item>第二十八番</item>
+        <item>第二十九番</item>
+        <item>第十三番</item>
+        <item>第三十一番</item>
+        <item>第三十二番</item>
+        <item>第三十三番</item>
+    </string-array>
+
+    <string-array name="lv_TempleExplanation">
+        <item>那智山は熊野三山の一つ。熊野信仰の霊場として長い歴史がある。</item>
+        <item>春は早咲の桜の名所。</item>
+        <item>粉河寺は和歌山県の北部を流れる紀ノ川の北岸にある。</item>
+        <item>夏山も冬山もよし 春は桜 秋は紅葉が楽しめます。</item>
+        <item>唐招提寺、三十三間堂とともに三観音として有名である。</item>
+        <item>西暦七〇三年弁基上人によって開かれた霊山、壷阪山南法華寺。</item>
+        <item>日本最初の厄除け霊場岡寺は飛鳥の東、山の中腹にあり、坂を上ると重要文化財に指定されている鮮やかな朱色をした仁王門があらわれる。</item>
+        <item>四季折々の花が咲くことから「花の御寺」とも呼ばれる。</item>
+        <item>四天王像が安置されている。</item>
+        <item>当山は西国観音霊場十番の札所で、本山修験宗の別格本山です。</item>
+        <item>醍醐水の辺の柏の霊木から准胝観世音菩薩を彫り、その柏の木があった場所にお堂が建てられたのが最初とされる。</item>
+        <item>静寂に包まれた境内には、日本一の桂の大樹群、芭蕉の池、雷神爪堀湧泉等があり、歴史と自然が共存する。</item>
+        <item>奈良時代からの最古の歴史と伝統を持つ霊山です。</item>
+        <item>天台寺門宗の総本山で、古くから日本四箇大寺の一つに数えられています。</item>
+        <item>当山を深く信仰されて新那智山と号し、今熊野観音寺と称されました。</item>
+        <item>「清水寺」の寺名は音羽の滝の清泉にちなむ。</item>
+        <item>空也の寺/源平両氏の中心史跡/西国第十七番札所霊場</item>
+        <item>本堂が六角の建物なので六角堂と呼ばれ、華道家元池坊の本拠として知られる。</item>
+        <item>一千年の歴史をもつお寺です。</item>
+        <item>善峯寺は観音信仰の他にも、薬師如来、釈迦如来の信仰が有名です。</item>
+        <item>慶雲二年(七〇五)の文武天皇の御世に大伴古磨によって創立されたと伝えられる丹波でも屈指の古刹です。</item>
+        <item>総持寺の本尊千手観音様は、「亀に乗った観音様」として有名で、子育て観音様、火除け、厄除け観音様と呼ばれています。</item>
+        <item>「勝運の寺」「勝ちダルマ」の寺として知られる古刹。</item>
+        <item>「安産の寺」として名高く、安産を祈る人々が全国から腹帯を戴きにまいられます。</item>
+        <item>六甲の山並み、瀬戸内海、淡路島、明石海峡大橋、家島、四国等を見渡すことが出来ます。</item>
+        <item>法華山は古来八葉の蓮華の山に喩えられ、桜・新緑・紅葉が美しい都塵を絶した浄域である。</item>
+        <item>約一千年前に(康保3年)性空上人によって開かれ、西の比叡山とし言われるように、鎮護国家の道場でその中心になるのが大講堂である。</item>
+        <item>「撞かずの鐘」「身代わり観音」などの伝説で知られている。</item>
+        <item>牛馬畜産、車馬交通、更には広く競馬関係者の信仰をあつめている。</item>
+        <item>「唐門」は豊臣期の大坂城の唯一現存する遺構として有名。</item>
+        <item>ご本尊千手十一面聖観世音菩薩は健康長寿、無病息災を授けて下さる有り難い観音様。</item>
+        <item>西国三十二番札所・観音正寺は、貴人にさしかざす衣蓋のようにふんわりとした美しい山容から名付けられたこの繖山の山中にひっそりと佇んでいる。</item>
+        <item>桜や紅葉の名所としても知られ、四季折々の自然の移ろいを味わうことが出来ます。</item>
+    </string-array>
+    <!-- activity_temple_detail用 -->
+    <string name="iv_selected">お寺詳細</string>
+    <string name="bt_back">リストに戻る</string>
+</resources>
