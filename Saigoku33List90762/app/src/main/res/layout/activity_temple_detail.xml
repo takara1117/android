@@ -6,13 +6,6 @@
     android:padding="8dp"
     android:orientation="vertical"
 >
-    <Button
-        android:id="@+id/btBack"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/bt_back"
-    />
     <TextView
         android:id="@+id/tvNumber"
         android:layout_width="wrap_content"
@@ -45,5 +38,12 @@
         android:layout_marginTop="16dp"
         android:contentDescription="@string/iv_selected"
         android:src="@drawable/top01"
+    />
+     <Button
+        android:id="@+id/btBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/bt_back"
     />
 </LinearLayout>

@@ -22,12 +22,10 @@
         android:id="@+id/lvTempleNumber"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:entries="@array/lv_TempleNumber"
     />
     <ListView
         android:id="@+id/lvTempleExplanation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:entries="@array/lv_TempleExplanation"
     />
 </LinearLayout>

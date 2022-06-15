@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         ListView lvTemple = findViewById(R.id.lvTemple);
         lvTemple.setOnItemClickListener(new ListItemClickListener());
+
+        //number, explanation
         ListView lvTempleNumber = findViewById(R.id.lvTempleNumber);
         lvTempleNumber.setOnItemClickListener(new ListItemClickListener());
         ListView lvTempleExplanation = findViewById(R.id.lvTempleExplanation);
@@ -28,13 +30,14 @@ public class MainActivity extends AppCompatActivity
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id)
         {
-            String number = (String) parent.getItemAtPosition(position);//追記
             String name = (String) parent.getItemAtPosition(position);
+            String number = (String) parent.getItemAtPosition(position);
             String explanation = (String) parent.getItemAtPosition(position);
+
             Intent intent = new Intent(MainActivity.this, TempleDetailActivity.class);
             intent.putExtra("selectedPictNo", position);
-            intent.putExtra("selectedPictNumber", number);//追記
             intent.putExtra("selectedPictName", name);
+            intent.putExtra("selectedPictNumber", number);
             intent.putExtra("selectedPicExplanation", explanation);
             startActivity(intent);
         }
