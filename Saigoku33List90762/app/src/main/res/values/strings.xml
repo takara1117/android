@@ -1,7 +1,6 @@
 <resources>
-    <!-- activity_main用 -->
     <string name="app_name">⻄国三十三所巡礼リスト</string>
-    <string name="tv_select">お寺を選択してください。</string>
+    <string name="temple_select">お寺を選択してください。</string>
     <string-array name="lv_temple">
         <item>青岸渡寺</item>
         <item>金剛宝寺</item>
@@ -109,7 +108,7 @@
         <item>西国三十二番札所・観音正寺は、貴人にさしかざす衣蓋のようにふんわりとした美しい山容から名付けられたこの繖山の山中にひっそりと佇んでいる。</item>
         <item>桜や紅葉の名所としても知られ、四季折々の自然の移ろいを味わうことが出来ます。</item>
     </string-array>
-    <!-- activity_temple_detail用 -->
-    <string name="iv_selected">お寺詳細</string>
+
+    <string name="temple_selected">お寺詳細</string>
     <string name="bt_back">リストに戻る</string>
 </resources>

@@ -15,14 +15,9 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ListView lvTemple = findViewById(R.id.lvTemple);
-        lvTemple.setOnItemClickListener(new ListItemClickListener());
 
-        //number, explanation
-        ListView lvTempleNumber = findViewById(R.id.lvTempleNumber);
-        lvTempleNumber.setOnItemClickListener(new ListItemClickListener());
-        ListView lvTempleExplanation = findViewById(R.id.lvTempleExplanation);
-        lvTempleExplanation.setOnItemClickListener(new ListItemClickListener());
+        ListView templeListView = findViewById(R.id.lvTemple);
+        templeListView.setOnItemClickListener(new ListItemClickListener());
     }
 
     private class ListItemClickListener implements AdapterView.OnItemClickListener
@@ -30,15 +25,16 @@ public class MainActivity extends AppCompatActivity
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id)
         {
-            String name = (String) parent.getItemAtPosition(position);
-            String number = (String) parent.getItemAtPosition(position);
-            String explanation = (String) parent.getItemAtPosition(position);
+            String templeName = (String) parent.getItemAtPosition(position);
+            //寺番号と寺説明の配列の取得
+            String templeNumber = getResources().getStringArray(R.array.lv_TempleNumber)[position];
+            String templeExplanation = getResources().getStringArray(R.array.lv_TempleExplanation)[position];
 
             Intent intent = new Intent(MainActivity.this, TempleDetailActivity.class);
             intent.putExtra("selectedPictNo", position);
-            intent.putExtra("selectedPictName", name);
-            intent.putExtra("selectedPictNumber", number);
-            intent.putExtra("selectedPicExplanation", explanation);
+            intent.putExtra("selectedPictName", templeName);
+            intent.putExtra("selectedPictNumber", templeNumber);
+            intent.putExtra("selectedPicExplanation", templeExplanation);
             startActivity(intent);
         }
     }
