@@ -13,7 +13,7 @@
         android:layout_margin="8dp"
         android:textSize="18sp"
     />
-    <!-- 寺リスト -->
+    <!-- お寺リスト -->
     <ListView
         android:id="@+id/lvTemple"
         android:layout_width="match_parent"
