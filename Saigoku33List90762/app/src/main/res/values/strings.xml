@@ -37,6 +37,7 @@
         <item>華厳寺</item>
     </string-array>
 
+    <!-- 詳細画面で使用 -->
     <string-array name="lv_TempleNumber">
         <item>第一番</item>
         <item>第二番</item>

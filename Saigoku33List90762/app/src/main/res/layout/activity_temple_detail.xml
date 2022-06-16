@@ -6,33 +6,53 @@
     android:padding="8dp"
     android:orientation="vertical"
 >
-    <!-- 寺番号 -->
+    <!-- お寺詳細 -->
     <TextView
-        android:id="@+id/tvNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp"
+        android:layout_margin="20dp"
         android:layout_gravity="center_horizontal"
-        android:text=""
-        android:textSize="24sp"
+        android:text="@string/temple_selected"
+        android:textColor="@color/black"
+        android:textSize="20sp"
     />
-    <!-- 寺名 -->
-    <TextView
-        android:id="@+id/tvName"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
-        android:layout_gravity="center_horizontal"
-        android:text=""
-        android:textSize="24sp"
-    />
+        android:orientation="horizontal"
+    >
+        <!-- 寺番号 -->
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+        />
+        <!-- 寺名 -->
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp"
+        />
+    </LinearLayout>
     <!-- 寺画像 -->
     <ImageView
         android:id="@+id/ivSelected"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"
         android:contentDescription="@string/temple_selected"
         android:src="@drawable/top01"
     />
@@ -42,13 +62,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
+        android:textColor="@color/black"
         android:textSize="20sp"
     />
-    <!-- 戻るボタン -->
+    <!-- リストに戻るボタン -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center|bottom" >
+        android:gravity="center|bottom"
+    >
      <Button
         android:id="@+id/btBack"
         android:layout_width="match_parent"
