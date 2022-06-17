@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity
         public void onItemClick(AdapterView<?> parent, View view, int position, long id)
         {
             String templeName = (String) parent.getItemAtPosition(position);
-            //寺番号と寺説明の配列の取得
             String templeNumber = getResources().getStringArray(R.array.lv_TempleNumber)[position];
             String templeExplanation = getResources().getStringArray(R.array.lv_TempleExplanation)[position];
 
